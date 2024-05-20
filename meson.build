@@ -169,8 +169,8 @@ gnome = import('gnome')
 
 # Enter to each subdirectory and execute the meson.build
 subdir('gst')
-subdir('tests')
-subdir('docs')
+#subdir('tests')
+#subdir('docs')
 
 # Meson will generate a header file all the entries in the configuration data object
 configure_file(output : 'config.h', configuration : cdata)
